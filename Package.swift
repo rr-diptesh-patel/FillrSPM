@@ -24,12 +24,12 @@ let package = Package(
         .binaryTarget(
             name: "FillrAPI",
             url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAPI/FillrAPI-1.0.4.zip",
-            checksum: "d6de08198c885adc069b70360e7111f4e6d3673eec513d154b0c340474611ed9"
+            checksum: "95da000ea3eb28c97abf9a9f6c9de37713d23587285c98b46a2528da93a1d5d3"
         ),
         .binaryTarget(
             name: "FillrAnalytics",
             url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAnalytics/FillrAnalytics-1.0.4.zip",
-            checksum: "95da000ea3eb28c97abf9a9f6c9de37713d23587285c98b46a2528da93a1d5d3"
+            checksum: "d6de08198c885adc069b70360e7111f4e6d3673eec513d154b0c340474611ed9"
         ),
         .binaryTarget(
             name: "FillrSDK",
