@@ -34,7 +34,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FillrSDK",
-            url: "https://fillr.jfrog.io/artifactory/FillrSPM/QA/FillrSDK/FillrSDK-1.0.4.xcframework.zip",
+            url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrSDK/FillrSDK-1.0.4.zip",
             checksum: "9369fb4600838ecdfff09d1b7169be8e188b73e151f81eb07ee50d71fae1e0f5"
         ),
         .binaryTarget(
