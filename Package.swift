@@ -15,7 +15,7 @@ let package = Package(
             targets: ["FillrAnalytics"]),
         .library(
             name: "FillrSDK",
-            targets: ["FillrSDK"])
+            targets: ["FillrSDK"]),
         .library(
             name: "FillrAutofillSDK",
             targets: ["FillrAutofillSDK"]),
