@@ -24,12 +24,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FillrAPI",
-            url: "https://fillr.jfrog.io/artifactory/FillrSPM/QA/FillrAPI/FillrAPI-1.0.4.xcframework.zip",
+            url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAPI/FillrAPI-1.0.4.zip",
             checksum: "d6de08198c885adc069b70360e7111f4e6d3673eec513d154b0c340474611ed9"
         ),
         .binaryTarget(
             name: "FillrAnalytics",
-            url: "https://fillr.jfrog.io/artifactory/FillrSPM/QA/FillrAnalytics/FillrAnalytics-1.0.4.xcframework.zip",
+            url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAnalytics/FillrAnalytics-1.0.4.zip",
             checksum: "95da000ea3eb28c97abf9a9f6c9de37713d23587285c98b46a2528da93a1d5d3"
         ),
         .binaryTarget(
@@ -39,7 +39,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FillrAutofillSDK",
-            url: "https://fillr.jfrog.io/artifactory/FillrSPM/QA/FillrAutofillSDK/FillrAutofillSDK-2.0.3.xcframework.zip",
+            url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAutofillSDK/FillrAutofillSDK-2.0.3.zip",
             checksum: "ef7b471e8e556eff172d63785648334eb3a0ee27f8de28a967deb3a1c7baed36"
         )
     ]
