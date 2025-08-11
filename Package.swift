@@ -8,9 +8,20 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         .library(
+            name: "FillrAPI",
+            targets: ["FillrAPI"]
+        ),
+        .library(
+            name: "FillrAnalytics",
+            targets: ["FillrAnalytics"]
+        ),
+        .library(
+            name: "FillrSDK",
+            targets: ["FillrSDK"]
+        ),
+        .library(
             name: "FillrAutofillSDK",
-            targets: ["FillrAutofillSDK"],
-            dependencies: ["FillrAPI", "FillrAnalytics", "FillrSDK"]
+            targets: ["FillrAutofillSDK"]
         )
     ],
     targets: [
@@ -27,12 +38,12 @@ let package = Package(
         .binaryTarget(
             name: "FillrSDK",
             url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrSDK/FillrSDK-3.0.0.zip",
-            checksum: "ce414bae7967587a6006e17f39c8e4db467274d010dbb48ed5f7d426de3c7135",
+            checksum: "c89a7caf7583b6e0b0d5b319fbf3045907248ac34ebe64c5fca30fd318e067ee"
         ),
         .binaryTarget(
             name: "FillrAutofillSDK",
             url: "https://fillr.jfrog.io/artifactory/FillrSPM/dev/FillrAutofillSDK/FillrAutofillSDK-3.0.0.zip",
-            checksum: "c5a50d3d4755c2e4dcdac2f382e46fd8339e4364be63305c8fc3538d66548ea5"
+            checksum: "8068fb51d54cd343463e2ed5d95e0cf05aae23ebac85a913fa32beb42bdfd375"
         )
     ]
 )
